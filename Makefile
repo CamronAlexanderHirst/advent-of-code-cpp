@@ -5,7 +5,7 @@ DEBUG=
 #DEBUG+- -DDEBUG_OTHER
 
 #If adding another include directory, be sure to add it here
-CPPFLAGS=-g ${DEBUG} -Iinclude/common -Iinclude/runner -Iinclude/solutions
+CPPFLAGS=-g ${DEBUG} -std=c++11 -Iinclude/common -Iinclude/runner -Iinclude/solutions
 
 .DEFAULT_GOAL := all
 
